@@ -1,32 +1,33 @@
 @font-face {
-    font-family: "Pyidaungsu";
-    src: url('../pyidaungsu/Pyidaungsu-2.5.3_Regular.ttf') format('truetype');
+    font-family: "Myanmar3";
+    src: url('../mmfonts/mm3sh.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
-    font-family: "Pyidaungsu";
-    src: url('../pyidaungsu/Pyidaungsu-2.5.3_Bold.ttf') format('truetype');
-    font-weight: bold;
+    font-family: "Myanmar Ayar3";
+    src: url('../mmfonts/MyanmarAyarTyepwriter.ttf') format('truetype');
+    font-weight: normal;
     font-style: normal;
 }
 
 /* Default font for body */
 body {
-    font-family: "Pyidaungsu", sans-serif !important;
+    font-family: "Myanmar3", serif !important;
 }
 
 /* secondary font */
 .secondary-font, #secondary-font {
-    font-family: "Pyidaungsu", sans-serif;
+    font-family: "Myanmar3", serif ;
 }
 
 /* primary font */
 .primary-font, #primary-font {
-    font-family: "Pyidaungsu", sans-serif;
+    /* font-family: "Roboto", sans-serif; */
+    font-family: "Myanmar3", serif ;
 }
 
 /* Default font */
 .default-font, #default-font {
-    font-family: "Pyidaungsu", sans-serif;
+    font-family: "Roboto", sans-serif;
 }

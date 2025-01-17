@@ -115,9 +115,9 @@ params:
     disableSearch: false
     # searchPlaceholder: "Search"
     stickyNavBar:
-      enable : true
-      showOnScrollUp : true
-    enableSeparator: false
+      enable: true
+      showOnScrollUp: true
+    enableSeparator: true
     menus:
       disableAbout: false
       disableExperience: false
@@ -323,7 +323,7 @@ params:
             url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
           - icon: fab fa-github
             url: https://github.com/gurusabarish/hugo-profile
-          - icon: fab fa-twitter
+          - icon: fab fa-x-twitter
             url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
 
       - title: Image Converter
