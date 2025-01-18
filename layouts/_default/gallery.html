@@ -23,6 +23,8 @@
             class="w-100 {{if .Params.viewer | default true}}viewer-enabled-image{{end}}"
             height="280px"
             src="{{ .src }}"
+            title="{{ .title }}"
+            alt="{{ .title }}"
           />
         </div>
       </div>
