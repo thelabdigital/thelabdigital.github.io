@@ -17,7 +17,7 @@ pagination:
 
 enableRobotsTXT: true
 # disqusShortname: your-disqus-shortname
-# googleAnalytics: G-MEASUREMENT_ID
+googleAnalytics: G-EY3KH0WZKV
 
 markup:
   goldmark:
@@ -139,7 +139,7 @@ params:
     # roundImage: true # Make hero image circular | default false
     button:
       enable: true
-      name: "Resume"
+      name: "Download My Resume"
       url: "#"
       download: true
       newPage: false
@@ -213,6 +213,9 @@ params:
         featuredLink:
           enable: true
           url: "https://example.com"
+        info:
+          enable: true
+          content: I worked as a software developer for more than one year in Apple.
         content: |
           I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
 

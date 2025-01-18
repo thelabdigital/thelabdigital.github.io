@@ -3,9 +3,9 @@ title: "Hello"
 date: 2025-01-18T02:08:58+06:30
 draft: false
 author: Sithu Aung
-tags: 
-    - greeting
-    - blog
+tags:
+  - greeting
+  - blog
 image: /images/post.jpg
 description: ""
 toc:
