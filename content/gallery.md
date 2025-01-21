@@ -6,17 +6,12 @@ description: "My gallery :earth_asia:"
 layout: "gallery"
 galleryImages:
  - src: "../images/gallery/UAB1.jpeg"
-   title: "Me at UAB Bank's-Be the Change Myanmar- Press Event with Mr. Christopher Loh (CEO of UAB) and Ms. Swe Zin Htike."
- - src: "https://img.etimg.com/thumb/msid-68721417,width-650,imgsize-1016106,,resizemode-4,quality-100/nature1_gettyimages.jpg"
-   title: "Nature at its Best"
- - src: "https://thumbs.dreamstime.com/b/team-ants-council-collective-decision-work-17037482.jpg"
-   title: "Teamwork of Ants"
- - src: "https://thumbs.dreamstime.com/b/summer-day-smiling-women-relax-wearing-red-dress-fashion-standing-wooden-bridge-over-sea-blue-sky-background-summer-107411998.jpg"
-   title: "Relaxing by the Sea"
- - src: "https://thumbs.dreamstime.com/b/young-woman-playing-dog-pet-beach-sunrise-sunset-girl-dog-having-fun-seasid-seaside-cute-neglected-stay-66480218.jpg"
-   title: "Fun at the Beach"
- - src: "https://thumbs.dreamstime.com/b/funny-picture-taken-sunrise-frozen-lake-perspective-rider-retro-bicycle-sunrise-personal-211066044.jpg"
-   title: "Frozen Lake Adventure"
+   title: "Me at UAB Bank's \"Be the Change Myanmar\" Press Event with Mr. Christopher Loh (CEO of UAB) and Ms. Swe Zin Htike."
+ - src: "../images/gallery/UAB2.jpeg"
+   title: "Me at UAB Bank's \"Be the Change Myanmar\" Press Event with Mr. Christopher Loh (CEO of UAB) and Ms. Swe Zin Htike."
+ - src: "../images/gallery/UAB3.jpeg"
+   title: "Me at UAB Bank's \"Be the Change Myanmar\" Press Event with Mr. Christopher Loh (CEO of UAB) and Ms. Swe Zin Htike."
+
 viewer: true
 viewerOptions:
   title: true
