@@ -82,7 +82,7 @@ params:
     title: "Sithu Aung."
     subtitle: "I develop strategies, making yours simply work!"
     content: "Hi there! Your friendly neighborhood marketing strategist, analyst, consultant, research enthusiast, and—let's face it—a full-on strategy aficionado is here!"
-    image: /images/me_hero_1.jpg
+    image: /images/me_hero_2.jpg
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
@@ -105,7 +105,7 @@ params:
   about:
     enable: true
     title: "About Me"
-    image: "/images/me_hero_2.jpg"
+    image: "/images/me_hero_1.jpg"
     content: |-
               I'm a strategic marketing professional from Myanmar with a solid background in media, marketing, communication, and advertising. I began my career at 19 in Dubai's hospitality industry, transitioned to Myanmar's print media sector in 2010, and by 2016 was developing digital and social media strategies at "Ogilvy Myanmar". Later, I became "Head of Digital Sales and Marketing" at "The Irrawaddy Media", one of Myanmar's leading digital media outlets, and co-founded "The Lab Digital", an agency supporting local MSMEs and NGOs. I've also worked as a Consultant and freelanced for organizations of all sizes, including "[Hogarth Worldwide](https://www.hogarth.com)", "[ICAP at Columbia University](https://icap.columbia.edu)", and "[Institute for Strategy and Policy - Myanmar](https://ispmyanmar.com/)".
 
