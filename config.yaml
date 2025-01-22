@@ -107,7 +107,7 @@ params:
     title: "About Me"
     image: "/images/me_hero_2.jpg"
     content: |-
-              I'm a strategic marketing professional from Myanmar with a solid background in media, marketing, communication, and advertising. I began my career at 19 in Dubai's hospitality industry, transitioned to Myanmar's print media sector in 2010, and by 2016 was developing digital and social media strategies at "Ogilvy Myanmar". Later, I became "Head of Digital Sales and Marketing" at "The Irrawaddy Media", one of Myanmar's leading digital media outlets, and co-founded "The Lab Digital", an agency supporting local MSMEs and NGOs. I've also worked as a Consultant and freelanced for organizations of all sizes, including "Hogarth Worldwide", "ICAP at Columbia University", and "Institute for Strategy and Policy-Myanmar".
+              I'm a strategic marketing professional from Myanmar with a solid background in media, marketing, communication, and advertising. I began my career at 19 in Dubai's hospitality industry, transitioned to Myanmar's print media sector in 2010, and by 2016 was developing digital and social media strategies at "Ogilvy Myanmar". Later, I became "Head of Digital Sales and Marketing" at "The Irrawaddy Media", one of Myanmar's leading digital media outlets, and co-founded "The Lab Digital", an agency supporting local MSMEs and NGOs. I've also worked as a Consultant and freelanced for organizations of all sizes, including "[Hogarth Worldwide](https://www.hogarth.com)", "[ICAP at Columbia University](https://icap.columbia.edu)", and "[Institute for Strategy and Policy - Myanmar](https://ispmyanmar.com/)".
 
               Outside of work, I'm a reader, writer, blogger and online educator, teaching classes via Zoom on topics like business strategy, marketing, dataanalytics, and operational research to inspire Myanmar's next generation of marketers. In my free time, I enjoy coding for fun (Python, PHP, R, and SQL, if you're curious), exploring Buddhist ethics in business strategies, and geeking out on Indian/Hindu astrology. (Check out my GitHub to learn more about my Python project on Hindu astrology.) I'm also a lifelong Manchester United fan and a proud cat parent.
 
@@ -135,40 +135,113 @@ params:
     enable: true
     # title: "Custom Name"
     items:
+
 ##### - Job #01 - #####
-      - job: "Software Developer"
-        company: "Amazon"
-        companyUrl: "https://example.com"
-        date: "Sep 2020 - Dec 2021"
+      - job: "Business Development Consultant"
+        company: "The Lab Digital"
+        companyUrl: "https://www.facebook.com/TheLabDigital"
+        date: "Oct 2016 - Present"
         featuredLink:
-          enable: true
+          enable: false
           name: "View the project"
           url: "https://example.com"
         info:
-          enable: true
+          enable: false
           content: I worked as a software developer for more than one year in Amazon.
         content: |-
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+          After I left my job at Ogilvy Myanmar, I wanted to utilize my skills in digital marketing and my connections in the marketing and communication industry. The Lab was founded by a small but very passionate group of professionals. So I joined there in 2016 as a non-payroll employee. My main responsibilities as Business Development Consultant there are :
 
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
+          - Developing new business opportunities
+          - Developing business proposals
+          - Maintaining relationships with clients
+          - Research and development
+
 ##### - Job #02 - #####
+      - job: "Lead Content Developer - Burmese Language"
+        company: "Hogarth Worldwide"
+        companyUrl: "https://www.hogarth.com"
+        date: "Jun 2022 - Present"
+        featuredLink:
+          enable: false
+          name: "View the project"
+          url: "https://example.com"
+        info:
+          enable: false
+          content: I worked as a software developer for more than one year in Amazon.
+        content: |-
+          After being awarded over a USD 4 bn worth world wide project from Coca-Cola in 2022, HogarthWW approached me to lead their content creation efforts for the Myanmar market and I joined there as a contractor. My main responsibilities there are:
+
+          - Ensuring all Burmese contents are aligned with local culture and laws.
+          - Ensuring all Burmese contents are properly developed, translated and aligned with client’s feedback.
+          - Developing new content ideas to optimize the audience engagement.
+
+##### - Job #03 - #####
+      - job: "Content Consultant - English Edition"
+        company: "ISP - Myanmar"
+        companyUrl: "https://ispmyanmar.com/"
+        date: "Jun 2020 - Mar 2023"
+        featuredLink:
+          enable: false
+          name: "View the project"
+          url: "https://example.com"
+        info:
+          enable: false
+          content: I worked as a software developer for more than one year in Amazon.
+        content: |-
+          During Covid pandemic and after the Coup, ISP-Myanmar developed over 150 policy related articles and they wanted to translate them into English. They approached me to oversee their translation project and I joined there as a non-payroll consultant. My primary responsibilities there were:
+
+          - Ensuring all translations were met with ISP-Myanmar standards and in-house content styles.
+          - Ensuring all projects were met with their deadline.
+          - Overseeing the Data Visualization process.
+
+          My contract was terminated after successfully finishing the project.
+
+##### - Job #04 - #####
+      - job: "Digital Sales and Marketing Manager"
+        company: "Irrawaddy Media"
+        companyUrl: "https://www.irrawaddy.com/"
+        date: "Sep 2017 - Jun 2020"
+        featuredLink:
+          enable: false
+          name: "View the project"
+          url: "https://example.com"
+        info:
+          enable: false
+          content: I worked as a software developer for more than one year in Amazon.
+        content: |-
+          I joined The Irrawaddy in Sep 2017 as a digital sales and marketing officer. Back then my main responsibilities was to generate revenue from advertising. But six months later, I was promoted as a digital sales and marketing manager. Then my responsibilities were no longer limited to sell ads spaces and were extended to diversify The Irrawaddy’s revenue sources not only exploring new opportunities but also strengthening the existing ones. My primary responsibilities there were:
+
+          - Assisting Win Thu, independent director back then and Sanjay Gathia, then project director - fundraising, to develop project proposals.
+          - Maintaining communications and relationships with donors such as MDIF, NED and Partners Asia.
+          - Tracking projects' activities and preparing reports.
+          - Engaging different communities and organizations to explore new business opportunities.
+          -  Researching and analyzing market trends and data such as PESTLE factors to develop new business opportunities and optimize existing ones.
+
+          During Covid pandemic, the media industry was hit by the unprecedented downturn. The Irrawaddy was no longer able to afford my salary and I left the organization.
+
+##### - Job #05 - #####
       - job: "Assistant Digital Planner"
         company: "Ogilvy Myanmar"
         companyUrl: "https://www.todayogilvy.com/"
-        date: "Feb 2016 - Dec 2021"
+        date: "Feb 2016 - Oct 2016"
         featuredLink:
-          enable: true
-          name: "View the project"
-          url: "https://example.com"
+          enable: false
+          name: 
+          url: 
         info:
-          enable: true
-          content: I worked as a software developer for more than one year in Amazon.
+          enable: false
+          content: 
         content: |-
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+          After being awarded a contract from MPT, Ogilvy Myanmar was asked to develop digital 360 marketing and communication strategy for MPT. 
+          They contacted Pete Mitchell, an ex-Ogilvian and founder of [Kudos Content](https://www.linkedin.com/company/kudos-content/about/), a Singapore based content marketing firm, to carry out the task. 
+          After working over half of a decade in the media industry, I was hired to assist Pete for his MPT project. My primary responsibilities there were:
 
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
+          - Acting as a liaison among Pete, Ogilvy internal teams and MPT.
+          - Performing market research and analysis for Pete.
+          - Developing various marcom strategies for each MPT's digital channels.
+          - Researching Social@Ogilvy campaign database
+
+          After MPT terminated its contract with Ogilvy, Pete's and my contracts were also terminated.
 
 # Education
   education:
