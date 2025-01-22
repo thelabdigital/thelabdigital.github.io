@@ -1,21 +1,32 @@
 {{- /* theme is auto */}}
 <script>
-    let localStorageValue = localStorage.getItem("pref-theme");
-    let mediaQuery = window.matchMedia('(prefers-color-scheme: dark)').matches;
-
-    switch (localStorageValue) {
-        case "dark":
-            document.body.classList.add('dark');
-            break;
-        case "light":
-            document.body.classList.remove('dark');
-            break;
-        default:
-            if (mediaQuery) {
-                document.body.classList.add('dark');
-            }
-            break;
+    // Function to apply the detected theme
+    function applyTheme(theme) {
+        if (theme === 'dark') {
+            document.body.classList.add('dark'); // Add dark mode class
+            localStorage.setItem('pref-theme', 'dark'); // Save preference
+        } else {
+            document.body.classList.remove('dark'); // Remove dark mode class
+            localStorage.setItem('pref-theme', 'light'); // Save preference
+        }
     }
+
+    // Detect initial theme
+    const savedTheme = localStorage.getItem('pref-theme');
+    if (savedTheme) {
+        // Apply saved theme preference
+        applyTheme(savedTheme);
+    } else {
+        // No saved preference, use system preference
+        const systemTheme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+        applyTheme(systemTheme);
+    }
+
+    // Listen for system theme changes
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (event) => {
+        const newTheme = event.matches ? 'dark' : 'light';
+        applyTheme(newTheme); // Automatically update theme
+    });
 </script>
 
 <!-- Show header on scroll up -->

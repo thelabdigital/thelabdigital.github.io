@@ -32,20 +32,39 @@
 {{- if (not .Site.Params.theme.disableThemeToggle) }}
 <script>
     document.getElementById("theme-toggle").addEventListener("click", () => {
-        if (document.body.className.includes("dark")) {
-            document.body.classList.remove('dark');
+        const body = document.body;
+        const isDarkMode = body.className.includes("dark");
+
+        // Toggle theme class on <body>
+        if (isDarkMode) {
+            body.classList.remove('dark');
             localStorage.setItem("pref-theme", 'light');
         } else {
-            document.body.classList.add('dark');
+            body.classList.add('dark');
             localStorage.setItem("pref-theme", 'dark');
         }
-    })
 
+        // Determine the new theme
+        const newTheme = isDarkMode ? 'light' : 'dark';
+
+        // Update Giscus theme
+        const giscusIframe = document.querySelector('iframe.giscus-frame');
+        if (giscusIframe) {
+            giscusIframe.contentWindow.postMessage({
+                giscus: {
+                    setConfig: {
+                        theme: newTheme
+                    }
+                }
+            }, 'https://giscus.app');
+        }
+    });
+
+    // Tooltip initialization
     var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
     var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
         return new bootstrap.Tooltip(tooltipTriggerEl)
-    })
-
+    });
 </script>
 {{- end }}
 

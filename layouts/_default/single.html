@@ -80,7 +80,7 @@
                 </li>
                 <li class="list-inline-item text-center">
                   <a target="_blank" href="https://twitter.com/share?text={{ .Title }}&url={{ .Site.Params.hostName }}{{ .Permalink | absURL }}">
-                    <i class="fab fa-x-twitter"></i>
+                    <i class="fab fa-twitter"></i>
                   </a>
                 </li>
                 <li class="list-inline-item text-center">
@@ -102,7 +102,53 @@
     </div>
     <div class="row">
       <div class="col-sm-12 col-md-12 col-lg-9 p-4">
-        {{ template "_internal/disqus.html" . }}
+        <!-- Comment system-->
+        <div id="giscus-container"></div>
+        <script>
+          document.addEventListener('DOMContentLoaded', () => {
+              // Function to load Giscus with the appropriate theme
+              function loadGiscus(theme) {
+                  const giscusContainer = document.getElementById('giscus-container');
+      
+                  // Clear any existing Giscus content
+                  giscusContainer.innerHTML = '';
+      
+                  // Create the Giscus script
+                  const script = document.createElement('script');
+                  script.src = 'https://giscus.app/client.js';
+                  script.setAttribute('data-repo', 'thelabdigital/thelabdigital.github.io');
+                  script.setAttribute('data-repo-id', 'R_kgDONlcnxg');
+                  script.setAttribute('data-category', 'General');
+                  script.setAttribute('data-category-id', 'DIC_kwDONlcnxs4CmPT2');
+                  script.setAttribute('data-mapping', 'url');
+                  script.setAttribute('data-strict', '0');
+                  script.setAttribute('data-reactions-enabled', '1');
+                  script.setAttribute('data-emit-metadata', '0');
+                  script.setAttribute('data-input-position', 'top');
+                  script.setAttribute('data-theme', theme); // Dynamically set the theme
+                  script.setAttribute('data-lang', 'en');
+                  script.setAttribute('crossorigin', 'anonymous');
+                  script.async = true;
+      
+                  // Append the script to the Giscus container
+                  giscusContainer.appendChild(script);
+              }
+      
+              // Detect the user's system theme
+              const systemTheme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      
+              // Load Giscus with the detected theme
+              loadGiscus(systemTheme);
+      
+              // Listen for system theme changes
+              window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (event) => {
+                  const newTheme = event.matches ? 'dark' : 'light';
+                  loadGiscus(newTheme); // Reload Giscus with the new theme
+              });
+          });
+      </script>
+      
+        <!-- Comment system ends here-->  
       </div>
     </div>
   </div>
