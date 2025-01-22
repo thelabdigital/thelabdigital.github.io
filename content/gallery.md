@@ -12,11 +12,11 @@ galleryImages:
  - src: "../images/gallery/wingabaw-03.jpg"
    title: "My girlfriend and I at Winga Baw Elephant Camp."
  - src: "../images/gallery/UAB1.jpeg"
-   title: "Me at UAB Bank's \"Be the Change Myanmar\" Press Event with Mr. Christopher Loh (CEO of UAB) and Ms. Swe Zin Htike."
+   title: "Me at UAB Bank's -Be the Change Myanmar- Press Event with Mr. Christopher Loh (CEO of UAB) and Ms. Swe Zin Htike."
  - src: "../images/gallery/UAB2.jpeg"
-   title: "Me at UAB Bank's \"Be the Change Myanmar\" Press Event with Mr. Christopher Loh (CEO of UAB) and Ms. Swe Zin Htike."
+   title: "Me at UAB Bank's -Be the Change Myanmar- Press Event with Mr. Christopher Loh (CEO of UAB) and Ms. Swe Zin Htike."
  - src: "../images/gallery/UAB3.jpeg"
-   title: "Me at UAB Bank's \"Be the Change Myanmar\" Press Event with Mr. Christopher Loh (CEO of UAB) and Ms. Swe Zin Htike."
+   title: "Me at UAB Bank's -Be the Change Myanmar- Press Event with Mr. Christopher Loh (CEO of UAB) and Ms. Swe Zin Htike."
 
 viewer: true
 viewerOptions:
