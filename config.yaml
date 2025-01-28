@@ -426,11 +426,9 @@ params:
       enable: true
       disableFeaturedImage: false
     socialNetworks:
-      github: https://github.com
-      linkedin: https://linkedin.com
-      twitter: https://twitter.com
-      instagram: https://instagram.com
-      facebook: https://facebook.com
+      github: https://github.com/SithuAung1988
+      linkedin: https://www.linkedin.com/in/sithuaung88/
+      facebook: https://www.facebook.com/sithu.aung.leo
 
   # List pages like blogs and posts
   listPages:
