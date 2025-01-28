@@ -315,8 +315,9 @@ params:
     enable: true
     # title: "Custom Name"
     items:
+    ### ITEM 1 ###
       - title: Absolute Essentials of Strategic Marketing
-        content: I wrote a book on strategic marketing in 2023, covering key topics like the 7Ps of marketing and the marketing funnel.
+        content: I wrote a book on strategic marketing in 2023, covering key fundamental topics like the 7Ps of marketing and the marketing funnel.
         image: /images/projects/book_marketing_tld_01.jpg
         featured:
           name: Grub your own copy, NOW!
@@ -328,7 +329,7 @@ params:
         links:
           - icon: fab fa-facebook
             url: https://www.facebook.com/ESMBookbyKoSithu
-
+    ### ITEM 2 ###
       - title: Office Politics - Everything You Need To Know
         content: Back in 2019, I wrote a book on office politics. It covers common challenges, like handling difficult bosses and navigating tough negotiations.
         image: /images/projects/book_office_politics_tld_00.jpg
@@ -343,20 +344,65 @@ params:
         links:
           - icon: fab fa-facebook
             url: https://www.facebook.com/TheLabDigitalPublishing
-
-      - title: Hugo Profile V2
-        content: A clean and simple Hugo template for personal portfolio and blog.
-        image: /images/projects/profile2.jpg
+    ### ITEM 3 ###
+      - title: U=U (Social Media Campaign)
+        content: One of my proudest moments at TLD was when we landed a contract with ICAP Myanmar, an INGO supporting people living with HIV, to create social media content from Dec 2022 to Apr 2023.
+        image: /images/projects/project_U_U.jpg
         featured:
-          name: Demo V2
-          link: https://hugo-profile-2.netlify.app
+          name: Project's social media.
+          link: https://www.facebook.com/UequalsUMyanmar
         badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
+          - "U=U"
+          - "ICAP Myanmar"
+          - "Social Media Campaign"
+          - "The Lab Digital"
         links:
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/HugoProfileV2
+          - icon: fab fa-facebook
+            url: https://www.facebook.com/UequalsUMyanmar
+    ### ITEM 4 ###
+      - title: Irrawaddy Business Talk
+        content: In 2018, I took the lead in launching 'The Irrawaddy Business Talk,' a program designed to give local entrepreneurs a platform to voice their opinions and concerns about the government's MSME policies. I worked with various organizations to secure funding and successfully partnered with CB Bank to bring the project to life.
+        image: /images/projects/project_irw_business_talk.jpg
+        featured:
+          name: Project's social media.
+          link: https://www.facebook.com/search/posts?q=Irrawaddy%20Business%20talk&filters=eyJycF9hdXRob3I6MCI6IntcIm5hbWVcIjpcImF1dGhvclwiLFwiYXJnc1wiOlwiMTAwMDY0ODk1ODgxMTcyXCJ9In0%3D
+        badges:
+          - "The Irrawaddy"
+          - "IRW Business Talk"
+          - "Business Program"
+        links:
+          - icon: fab fa-youtube
+            url: https://www.youtube.com/playlist?list=PLvXOOebDZ_BYAYkaXJxzBFIhriYfY5M3T
+          - icon: fab fa-facebook
+            url: https://www.facebook.com/watch/?v=2172076056169868
+    ### ITEM 5 ###
+      - title: Irrawaddy Travel
+        content: As part of efforts to diversify revenue, The Irrawaddy teamed up with AYAPay to create a tourism-focused news channel on social media. I led the project from the ground up, handling everything from negotiating with financiers to organizing programs, all the way until just before the 2020 election.
+        image: /images/projects/project_irw_travel.jpg
+        featured:
+          name: Project's social media.
+          link: https://www.facebook.com/theirrawaddytravel
+        badges:
+          - "The Irrawaddy"
+          - "Irrawaddy Travel"
+          - "Tourism Program"
+        links:
+          - icon: fab fa-facebook
+            url: https://www.facebook.com/theirrawaddytravel
+    ### ITEM 6 ###
+      - title: IRW Covid-19 Special
+        content: When the Covid pandemic hit, the media industry took an unexpected downturn. To help mitigate the impact, I negotiated with UAB Bank to sponsor a daily pandemic update program. The funding from this project helped cover the team's salaries, including my final paycheck.
+        image: /images/projects/project_irw_covid.jpg
+        featured:
+          name: Project's social media.
+          link: https://www.facebook.com/watch/?v=879726795878819
+        badges:
+          - "The Irrawaddy"
+          - "Covid-19 Special"
+          - "Pandemic Update"
+        links:
+          - icon: fab fa-facebook
+            url: https://www.facebook.com/watch/?v=879726795878819
 
   #Contact
   contact:
