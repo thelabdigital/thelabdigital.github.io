@@ -315,23 +315,23 @@ params:
     enable: true
     # title: "Custom Name"
     items:
-      - title: Absolute Essentials of Strategic Marketing - Book
+      - title: Absolute Essentials of Strategic Marketing
         content: I wrote a book on strategic marketing in 2023, covering key topics like the 7Ps of marketing and the marketing funnel.
         image: /images/projects/book_marketing_tld_01.jpg
         featured:
           name: Grub your own copy, NOW!
-          link: https://www.facebook.com/ESMBookbyKoSithu
+          link: https://www.facebook.com/TheLabDigitalPublishing
         badges:
           - "Marketing"
           - "Strategic Marketing"
           - "Business Strategy"
         links:
           - icon: fab fa-facebook
-            url: https://www.facebook.com/TheLabDigitalPublishing
+            url: https://www.facebook.com/ESMBookbyKoSithu
 
       - title: Office Politics - Everything You Need To Know
         content: Back in 2019, I wrote a book on office politics. It covers common challenges, like handling difficult bosses and navigating tough negotiations.
-        image: /images/projects/book_office_politics_tld_00.png
+        image: /images/projects/book_office_politics_tld_00.jpg
         featured:
           name: Grub your own copy, NOW!
           link: https://www.facebook.com/TheLabDigitalPublishing
