@@ -89,7 +89,7 @@ params:
     button:
       enable: true
       name: "Download My Resume"
-      url: "/cv/STA_CV_2025_Jan.pdf"
+      url: "/cv/STA_CV_Jan_2025_Revised.pdf"
       download: true
       newPage: false
     socialLinks:
