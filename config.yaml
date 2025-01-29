@@ -50,7 +50,7 @@ params:
     # disableThemeToggle: true
     # defaultTheme: "light" # dark
   font:
-    fontSize: 1.15rem # default: 1rem
+    fontSize: 1rem # default: 1rem
     fontWeight: 400 # default: 400
     lineHeight: 1.5 # default: 1.5
     textAlign: left # default: left
@@ -426,9 +426,9 @@ params:
       enable: true
       disableFeaturedImage: false
     socialNetworks:
-      github: https://github.com/SithuAung1988
-      linkedin: https://www.linkedin.com/in/sithuaung88/
       facebook: https://www.facebook.com/sithu.aung.leo
+      linkedin: https://www.linkedin.com/in/sithuaung88/
+      github: https://github.com/SithuAung1988
 
   # List pages like blogs and posts
   listPages:

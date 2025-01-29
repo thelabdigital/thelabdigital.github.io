@@ -1,36 +1,34 @@
-@font-face {
-  font-family: "Myanmar3";
-  src: url("../mmfonts/mm3sh.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Myanmar Ayar3";
-  src: url("../mmfonts/MyanmarAyarTyepwriter.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
 /* Default font for body */
 body {
-  font-family: "Myanmar3", serif !important;
+  font-family: "Roboto Mono", serif !important;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
 }
 
 /* secondary font */
 .secondary-font,
 #secondary-font {
-  font-family: "Myanmar3", serif;
+  font-family: "Roboto Mono", serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
 }
 
 /* primary font */
 .primary-font,
 #primary-font {
-  /* font-family: "Roboto", sans-serif; */
-  font-family: "Myanmar3", serif;
+  font-family: "Roboto Mono", serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
 }
 
 /* Default font */
 .default-font,
 #default-font {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Mono", serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
 }
