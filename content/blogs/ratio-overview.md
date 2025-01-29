@@ -11,7 +11,7 @@ tags:
     - Learning
     - Ratio Analysis
 image: /images/blogs/ratio-overview-chart.png
-description: "Sample Description"
+description: "Ratio Analysis - Part 01 - Overview of Ratios"
 toc:
 ---
 
